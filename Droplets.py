@@ -27,7 +27,7 @@ class Droplet():
 
             print(f'{self.ID} greater than {other.ID}')
         else:
-            print('Not true')
+            print('False')
 
         return(self.volume > other.volume)
 
@@ -37,7 +37,7 @@ class Droplet():
 
             print(f'{self.ID} smaller than {other.ID}')
         else:
-            print('Not true')
+            print('False')
 
         return(self.volume < other.volume)
 
